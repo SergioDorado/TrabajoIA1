@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC>
+<html lang="en">
+    <head>
+        <meta content="text/html" charset="UTF-8" />
+		<script type="javascript" src="bootstrap/js/bootstrap.min.js">
+		</script>
+		<script type="javascript" scr="jquery-3.1.1.min.js"></script>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	</head>
+	<body>
+		<header>
+		</header>
+		<br>
+		<div class="container">
+			<form role="form" class="form-horizontal">
+			
+				<div class="form-group">
+					<div class="col-md-6">
+						<label class="" for="hospital">HOSPITAL / EFECTOR</label>
+							<input type="text" class="form-control" id="hospital">
+					</div>
+					<div class="col-md-6">
+						<label for="fechaactual">FECHA ACTUAL</label>
+							<input type="date" class="form-control" id="fechaactual">
+					</div>
+				</div>
+				
+				<hr>
+				<h3>DATOS DEL BENEFICIARIO</h3>
+				<div class="form-group">
+					<div class="col-lg-4">
+						<label for="apynom">APELLEDIO Y NOMBRES</label>
+						<input type="text" class="form-control" id="apynom">
+					</div>
+					<div class="col-lg-4">
+						<label for="dni">DNI</label>
+						<input type="text" class="form-control" id="dni">
+					</div>
+					<div class="col-lg-4" style="text-align: center" >
+						<label for="genero">GENERO</label>
+						<div>
+						<div class="col-sm-2"></div>
+							<label class="col-sm-2" for="genero1">Masc </label>
+							<div class="col-sm-1"> <input type="radio" id="genero1"  name="genero" value="M"> </div> 
+							<div class="col-sm-2"></div>
+							<label class="col-sm-2" for="genero2">Fem </label>
+							<div class="col-sm-1"> <input type="radio" id="genero2"  name="genero" value="F"> </div> 
+						</div>
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<div class="col-lg-4">
+						<label for="fnac">FECHA DE NACIMIENTO</label>
+						<input type="date" class="form-control" id="fnac">
+					</div>
+					<div class="col-lg-4">
+						<label for="domicilio">DOMICILIO COMPLETO</label>
+						<input type="text" class="form-control" id="domicilio">
+					</div>
+					<div class="col-lg-4">
+						<label for="tel">TEL/CEL</label>
+						<input type="text" class="form-control" id="tel">
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<div class="col-lg-4">
+						<label for="cp">C.P.</label>
+						<input type="text" class="form-control" id="cp">
+					</div>
+					<div class="col-lg-4">
+						<label for="localidad">LOCALIDAD Y DEPARTAMENTO</label>
+						<input type="text" class="form-control" id="localidad">
+					</div>
+					<div class="col-lg-4">
+						<label for="estcivil">ESTADO CIVIL</label>
+						<div>
+							<label class="col-sm-2"><small>Soltero</small></label>
+							<div class="col-sm-2"> <input type="radio" name="estado" value="SOL"> </div>
+							<label class="col-sm-2"><small>U. estable</small></label>
+							<div class="col-sm-2"> <input type="radio" name="estado" value="EST"> </div>
+							<label class="col-sm-2"><small>Casado</small></label>
+							<div class="col-sm-2"> <input type="radio" name="estado" value="Cas"> </div>
+						</div>
+						<div>
+							<label class="col-sm-2"><small>Otro</small></label>
+							<div class="col-sm-2"> <input type="radio" name="estado" value="OTR"> </div>
+						</div>
+					</div>
+				</div>
+				
+				
+			</form>
+		</div>
+	</body>
+</html>
