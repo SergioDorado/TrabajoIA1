@@ -76,20 +76,121 @@
 					<div class="col-lg-4">
 						<label for="estcivil">ESTADO CIVIL</label>
 						<div>
-							<label class="col-sm-2"><small>Soltero</small></label>
-							<div class="col-sm-2"> <input type="radio" name="estado" value="SOL"> </div>
-							<label class="col-sm-2"><small>U. estable</small></label>
-							<div class="col-sm-2"> <input type="radio" name="estado" value="EST"> </div>
-							<label class="col-sm-2"><small>Casado</small></label>
-							<div class="col-sm-2"> <input type="radio" name="estado" value="Cas"> </div>
+							<div class="col-sm-4">
+								<label><small>Soltero </small></label>
+								<input type="radio" name="estado" value="SOL">
+							</div>
+							<div class="col-sm-4">
+								<label><small>U. estable </small></label>
+								<input type="radio" name="estado" value="EST">
+							</div>
+							<div class="col-sm-4">
+								<label><small>Casado </small></label>
+								<input type="radio" name="estado" value="CAS">
+							</div>
 						</div>
+						<br>
 						<div>
-							<label class="col-sm-2"><small>Otro</small></label>
-							<div class="col-sm-2"> <input type="radio" name="estado" value="OTR"> </div>
+							<div class="col-sm-4">
+								<label><small>Otro  </small></label>
+								<input type="radio" name="estado" value="OTR">
+							</div>
+							<div class="col-sm-6"> <input type="text" id="estado" class="form-control" disabled="true"> </div>
 						</div>
 					</div>
 				</div>
 				
+				<div class="form-group">
+					<div class="col-lg-4">
+						<label style="display: block">OBRA SOCIAL</label>
+						<div>	
+							<div class="col-sm-3">
+								<label> <small>No   </small> </label>
+								<input type="radio" name="osocial" value="NO">
+							</div>
+							<div class="col-sm-4">
+								<label> <small>Inc. Salud </small> </label>
+								<input type="radio" name="osocial" value="INC">
+							</div>
+							<div class="col-sm-4">
+								<label> <small>I.S.J. </small> </label>
+								<input type="radio" name="osocial" value="ISJ">
+							</div>
+						</div>
+						<br>
+						<div>
+							<div class="col-sm-4">
+							<label> <small>PAMI </small> </label>
+							<input type="radio" name="osocial" value="PAM">
+						</div>
+						<div class="col-sm-4">
+							<label> <small>Otro </small> </label>
+							<input type="radio" name="osocial" value="OTR">
+						</div>
+						<div class="col-sm-4">
+							<input type="text" class="form-control" id="osocial" disabled="true">
+						</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<label style="display: block">ESTUDIOS</label>
+						<div>
+							<div class="col-sm-2"></div>
+							<div class="col-sm-4">
+								<label> <small>Ning. </small> </label>
+								<input type="radio" name="estudios" value="NIN">
+							</div>
+							<div class="col-sm-4">
+								<label> <small>Prim. </small> </label>
+								<input type="radio" name="estudios" value="PRI">
+							</div>
+						</div>
+						<br>
+						<div>
+							<div class="col-sm-2"></div>
+							<div class="col-sm-4">
+								<label> <small>Sec. </small></label>
+								<input type="radio" name="estudios" value="SEC">
+							</div>
+							<div class="col-sm-4">
+								<label> <small>Univ.</small> </label>
+								<input type="radio" name="estudios" value="UNI">
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+				
+				<hr>
+				<hr>
+				<h3>DIAGNOSTICOS</h3>
+				<div class="form-group">
+					<div class="col-lg-4">
+						<label style="display: block"> GLUCEMIA ALTERADA EN AYUNAS</label>
+						<div class="col-sm-2"> </div>
+						<div class="col-sm-2">
+							<label> <small>Si </small> </label>
+							<input type="radio" name="glucemialaterada" value="SI">
+						</div>
+						<div class="col-sm-3">
+							<label> <small>No </small> </label>
+							<input type="radio" name="glucemialaterada" value="NO">
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<label style="display: block"> TOLERANCIA A GLUCOSA ALTERADA</label>
+						<div class="col-sm-2"> </div>
+						<div class="col-sm-2">
+							<label> <small>Si </small> </label>
+							<input type="radio" name="toleranciaalterada" value="SI">
+						</div>
+						<div class="col-sm-3">
+							<label> <small>No </small> </label>
+							<input type="radio" name="toleranciaalterada" value="NO">
+						</div>
+					</div>
+				</div>
 				
 			</form>
 		</div>
